@@ -1,0 +1,22 @@
+.box{
+    width: 100%;
+    background:linear-gradient(210.41deg,rgb(130, 130, 156), rgb(83, 83, 122));
+ 
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.icons>i{
+    font-size: 2rem;
+
+    color: rgb(42, 47, 59);
+}
+@media screen and (max-width: 655px) {
+    .box{
+        width: 130%;
+    }
+}

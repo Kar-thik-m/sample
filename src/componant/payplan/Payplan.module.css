@@ -1,0 +1,139 @@
+.cardwhole {
+    width: 100%;
+    display: flex;
+    background-color: rgb(83, 83, 122);
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+
+    
+}
+
+.carts {
+    width: 18rem;
+    margin-top: 1%;
+    background:linear-gradient(210.41deg,rgb(130, 130, 156), rgb(83, 83, 122));
+    box-shadow: 0px 0px 10px 0px rgba(51, 50, 50, 0.75);
+    margin-left: 8%;
+
+}
+
+.title {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 1rem;
+    word-spacing: 2rem;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-bottom: 5%;
+
+}
+
+.icon {
+    width: 30%;
+
+}
+
+.plantype {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.amount {
+    width: 50%;
+    font-size: 70px;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.details {
+    width: 100%;
+    padding-left: 50px;
+
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.joinbutton {
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 15%;
+    margin-bottom: 10%;
+
+}
+.icon>img{
+    width: 80%;
+   
+}
+button {
+    border: none;
+    padding: 5px 70px;
+  
+   font-weight: bold;
+  
+}
+button:hover{
+    background-color:gray;
+    
+    color: aliceblue;
+}
+.details>div:nth-child(1) {
+    padding-top: 20px;
+    
+}
+
+.details>div:nth-child(2) {
+    padding-top: 10px;
+    
+
+}
+
+.details>div:nth-child(3) {
+    padding-top: 10px;
+   
+}
+
+.details>div:nth-child(4) {
+    padding-top: 10px;
+}
+
+.details>div:nth-child(5) {
+    padding-top: 10px;
+
+}
+
+.carts:nth-child(3) {
+    margin-top: 0%;
+}
+.carts:nth-child(3){
+    background:linear-gradient(210.41deg,#fa5042 1.14%,#ffa739 100.75%);
+    
+}
+
+@media screen and (max-width:720px) {
+    .carts {
+        width: 60%;
+        position: relative;
+        left: 10%;
+       
+    }
+    button{
+        padding: 10px 20px;
+    }
+
+}
+@media screen and (max-width: 655px) {
+    .cardwhole{
+      width: 130%;
+    }
+    .carts{
+        margin-bottom: 1rem;
+    }
+}
