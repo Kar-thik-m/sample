@@ -9,7 +9,7 @@
 }
 .g{
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 4rem;
     font-weight: bolder;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -79,7 +79,7 @@ font-weight: bold;
 }
 @media screen and (max-width: 655px) {
     .total{
-      width: 130%;
+        width: 100%;
     }
     Pstyle.card{
         margin: 10%;

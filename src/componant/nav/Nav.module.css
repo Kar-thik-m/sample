@@ -181,7 +181,7 @@
 
 @media screen and (max-width: 655px) {
     .navbar {
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -204,7 +204,7 @@
     }
 
     .rightside>img:nth-child(1) {
-        width: 10rem;
+        width: 9rem;
         right: 10rem;
 
     }

@@ -17,6 +17,6 @@
 }
 @media screen and (max-width: 655px) {
     .box{
-        width: 130%;
+        width: 100%;
     }
 }

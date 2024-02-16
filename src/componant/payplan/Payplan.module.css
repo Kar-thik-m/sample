@@ -131,7 +131,7 @@ button:hover{
 }
 @media screen and (max-width: 655px) {
     .cardwhole{
-      width: 130%;
+        width: 100%;
     }
     .carts{
         margin-bottom: 1rem;

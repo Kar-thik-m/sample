@@ -112,10 +112,11 @@
 }
 
 
+
 @media screen and (max-width: 655px) {
     .wholepage {
        
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         position: relative;
