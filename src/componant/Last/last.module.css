@@ -19,4 +19,16 @@
     .box{
         width: 100%;
     }
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .icons>i{
+        font-size: 2rem;
+    
+        color: rgb(42, 47, 59);
+    }
 }
