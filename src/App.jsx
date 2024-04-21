@@ -1,23 +1,22 @@
 import React from "react";
-import Nav from "./componant/nav/Nav.jsx";
-import Program from "./componant/nav/Program/Program.jsx";
-import Payplans from "./componant/payplan/Payplan.jsx";
-import Promotion from "./componant/promotion/Promotion.jsx";
-import TM from "./componant/testimonials/Testimonials.jsx";
-import Last from "./componant/Last/Last.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
+import Login from "./user/login/login";
+import Home from "./componant/Home.jsx";
+import Register from "./user/Register/Register.jsx";
 
 const App =  () => {
   return (
-
-    <div>
-    <Nav />
-    <Program />
-    <Promotion />
-    <Payplans />
-     <TM />
-     <Last />
-    </div>
-
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} /> 
+        <Route path="/items" >
+          <Route path="login" element={<Login />} /> 
+          <Route path="register" element={<Register />} />
+          <Route path="home" element={<Home />} />
+        </Route>
+        <Route path="*" element={<div>Not Found</div>} />
+      </Routes>
+    </Router>
   );
 }
 

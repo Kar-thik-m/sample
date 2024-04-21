@@ -1,8 +1,10 @@
+// testimonials.js
+
 import Tmstyle from "../testimonials/Testimonials.module.css";
-import { TestimonialsData } from "./testimonials";
+import { TestimonialsData } from "./Testimonials";
 import { useState } from "react";
 
-const TM = () => {
+const Tmonials = () => {
     const [index, setIndex] = useState(0);
     const [width, setWidth] = useState(0)
 
@@ -54,11 +56,9 @@ const TM = () => {
                 <div className={Tmstyle.mar}>
                     <img src={TestimonialsData[index].Image} alt={TestimonialsData[index].Name}></img>
                 </div>
-               
             </div>
-           
         </div>
     );
 };
 
-export default TM;
+export  default Tmonials;
