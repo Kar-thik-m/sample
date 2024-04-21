@@ -1,7 +1,7 @@
 // testimonials.js
 
-import Tmstyle from "../testimonials/Testimonials.module.css";
-import { TestimonialsData } from "./Testimonials";
+import Tmstyle from "../componant/testimonials/Testimonials.module.css";
+import { TestimonialsData } from "./testimonials/testimonials";
 import { useState } from "react";
 
 const Tmonials = () => {
